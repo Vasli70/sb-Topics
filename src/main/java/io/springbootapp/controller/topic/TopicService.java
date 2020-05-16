@@ -13,7 +13,7 @@ public class TopicService {
 	private List<Topic> topics =   new ArrayList<> (Arrays.asList(			
 				new Topic("Spring", "Spring Framework","Spring FW Descr"),
 				new Topic("Java", "Java EE","Java EE Descr"),
-				new Topic("VC", "Visual C","Visual C++ Descr")
+				new Topic("Visual C", "Visual C","Visual C++ Descr")
 				));
 		
 	public List<Topic> getAllTopics(){
